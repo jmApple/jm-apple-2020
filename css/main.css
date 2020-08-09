@@ -4338,6 +4338,10 @@ END MOBILE FIRST | iPhone5 | NO min width
        text-decoration: none;
      }
 
+     #footer-border ul li a:hover,   #footer-no-border ul li a:hover  {
+       color: #bbbdc0;
+     }
+
      #footer-border .email, #footer-no-border .email {
        display: block;
        line-height: 28px;
