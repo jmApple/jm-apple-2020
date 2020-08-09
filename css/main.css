@@ -2828,7 +2828,8 @@ END MOBILE FIRST | iPhone5 | NO min width
     CONTACT PAGE | | min width 568px
     ===================================================*/
     .spacing-container-contact {
-      min-height: 320px;
+      /*min-height: 320px;*/
+      /* NOTE: if this min height is active it leades to the nave not working if the screen height shrinks below a certian height */
     }
 
     .corner-body .spacing-container-contact header {
