@@ -1,5 +1,7 @@
 
-/* ================================ Hero's on Homepage made in Refresh Builder =========================================== */
+/* =============================================== */
+/* == Heros on Homepage made in Refresh Builder == */
+/* =============================================== */
 /* Extra small devices (phones, less than 768px) */
 /* mobile first */
 
@@ -11,7 +13,7 @@
   display: none;
 }
 
-.hp-hero-mobile{
+.hp-hero-mobile {
   display: block;
   max-width: 100%;
   height: auto;
