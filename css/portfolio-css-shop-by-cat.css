@@ -101,7 +101,7 @@
   font-weight: bold;
 }
 
-hr {
+.holiday-toy-finder-shop-by-age-pb hr {
   display: block;
   width: 100%;
   height: 1px;
@@ -163,7 +163,7 @@ hr {
  min width 1024px
 ===================*/
 @media screen and (min-width:1024px){
-  hr {
+  .holiday-toy-finder-shop-by-age-pb hr {
     display: none;
   }
 
@@ -184,6 +184,7 @@ hr {
   .toy-pb-shop-by-age-option-block {
     width: 24%;
   }
+}
 
 
 }
