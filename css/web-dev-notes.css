@@ -1,0 +1,400 @@
+/* REPLACES
+   portfolio-css-rb.css
+   &
+   portfolio-css-cat-pg-top.css
+*/
+
+/* ==================================================== */
+/* ********************* IE | FIX ********************* */
+/* ==================================================== */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+
+}
+
+/* ==================================================== */
+/* ******************** START | HERO ****************** */
+/* ==================================================== */
+.plp-top-cat-pg-hero {
+  background-color: #010f1f;
+}
+
+.plp-top-cat-pg-hero p {
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 900;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.plp-top-cat-pg-hero-lg {
+  display: none;
+}
+
+/* ===================================================== */
+/* *********** START | whole shop pg styles ************ */
+/* ===================================================== */
+.holiday-toy-lp-gift-finder-by-price {
+  margin-top: 5%;
+}
+
+.holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-itm {
+  width:47%;
+  margin-bottom: 1%;
+}
+
+.plp-top-cat-pg-shop-pg-title {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  color: #4a4a4a;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  display: block;
+}
+
+.holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy .plp-top-cat-pg-shop-pg-title  {
+  margin-top: 0%;
+}
+
+.plp-top-cat-pg-shp-by-ctgy-itm a, .plp-top-cat-pg-shp-by-ctgy-itm a:link, .plp-top-cat-pg-shp-by-ctgy-itm a:visited, .plp-top-cat-pg-shp-by-ctgy-itm a:active, .plp-top-cat-pg-shp-by-ctgy-itm a:focus {
+  text-decoration: none;
+  text-decoration-line: none;
+  text-decoration-style: initial;
+  text-decoration-color: initial;
+}
+
+.plp-top-cat-pg-shp-by-ctgy-nav-icons {
+  display: flex;
+  display: -ms-flex;
+  flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  justify-content: space-evenly;
+  -ms-justify-content: space-around;
+  margin-right: -10px;
+  margin-left: -10px;
+  margin-bottom: 21px;
+}
+
+.holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-nav-icons {
+  margin-left:0;
+  margin-right:0;
+  margin-bottom: 1%;
+}
+
+.plp-top-cat-pg-shp-by-ctgy-itm {
+  width: 30%;
+  margin-bottom: 3%;
+}
+
+.plp-top-cat-pg-shp-by-ctgy-navicns-txt {
+  font-family: 'Lato';
+  font-weight: normal;
+  text-transform: lowercase;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-align: center;
+  margin: 2% 0 0 0;
+}
+
+/* *************************************** */
+/* START | toy-pb-shop-by-age-4optns-block */
+/* *************************************** */
+
+.toy-pb-shop-by-age-btn {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  margin-bottom: 10px;
+}
+
+.toy-pb-shop-by-age-btn p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* ===================================================== */
+/* *************** START | landing page **************** */
+/* ===================================================== */
+
+.holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy-nav-icons {
+ margin-left:0;
+ margin-right:0;
+}
+
+.holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy-itm {
+ width:47%;
+ margin-bottom: 1%;
+}
+
+.plp-top-cat-pg-shp-by-ctgy-itm a, .plp-top-cat-pg-shp-by-ctgy-itm a:link, .plp-top-cat-pg-shp-by-ctgy-itm a:visited, .plp-top-cat-pg-shp-by-ctgy-itm a:active, .plp-top-cat-pg-shp-by-ctgy-itm a:focus {
+text-decoration: none;
+text-decoration-line: none;
+text-decoration-style: initial;
+text-decoration-color: initial;
+}
+
+.plp-top-cat-pg-shp-by-ctgy-itm img {
+display: none;
+}
+
+.zero-24-months-red p {
+color:#ea2f1f;
+font-family: 'Quicksand', sans-serif;
+}
+
+.two-to-four-years-yellow p {
+color:#e59c00;
+font-family: 'Quicksand', sans-serif;
+}
+
+.five-to-seven-years-green p {
+color:#01893b;
+font-family: 'Quicksand', sans-serif;
+}
+
+.eight-to-eleven-years-blue p {
+color:#156bb0;
+font-family: 'Quicksand', sans-serif;
+}
+
+.twelve-plus-years-purple p {
+color:#820aa4;
+font-family: 'Quicksand', sans-serif;
+}
+
+.by-age-mobile {
+display: block;
+}
+
+.by-age-desktop {
+display: none;
+}
+
+
+
+
+
+/*==================
+ min width 331px
+===================*/
+@media screen and (min-width:331px) {
+  .plp-top-cat-pg-hero p {
+    font-size: 1.5em;
+  }
+}
+
+/*==================
+ min width 360px
+===================*/
+@media screen and (min-width: 360px) {
+
+}
+
+/*==================
+ min width 375px
+===================*/
+@media screen and (min-width: 375px) {
+
+}
+
+/*==================
+ min width 401px
+===================*/
+@media screen and (min-width:401px) {
+
+}
+
+/*==================
+ min width 479px
+===================*/
+@media (max-width: 479px) {
+
+}
+
+/*==================
+ min width 480px
+===================*/
+@media screen and (min-width:480px) {
+  .plp-top-cat-pg-hero-sm {
+    display: none;
+  }
+
+  .plp-top-cat-pg-hero-lg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
+
+/*==================
+ min width 500px
+===================*/
+@media screen and (min-width:500px) {
+
+  .plp-top-cat-pg-hero p {
+    color: #ffffff;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 900;
+    font-size: 33px;
+    text-align: center;
+  }
+
+  .toy-pb-shop-by-age-btn p {
+    font-size: 14px;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price {
+    margin-top: 0%;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy .plp-top-cat-pg-shop-pg-title  {
+    margin-bottom: 1%;
+  }
+
+  .holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy .plp-top-cat-pg-shop-pg-title {
+    margin-top: 0%;
+    margin-bottom: 1%;
+  }
+
+  .plp-top-cat-pg-shp-by-ctgy-itm img {
+    display: none;
+  }
+
+  .plp-top-cat-pg-shp-by-ctgy-itm .toy-pb-shop-by-age-btn {
+    display: block;
+  }
+
+  .plp-top-cat-pg-shp-by-ctgy-itm .toy-pb-shop-by-age-btn {
+    width: 100%;
+    height: 100px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    margin-bottom: 10px;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price {
+      margin-top: 1%;
+  }
+
+  .holiday-toy-lp-gift-finder {
+      margin-top: 1%;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-itm {
+    width: 30%;
+    margin-bottom:0;
+  }
+
+  .holiday-toy-lp-gift-finder .plp-top-cat-pg-shp-by-ctgy-itm {
+    margin-bottom: 3%;
+  }
+
+  .holiday-toy-lp-gift-finder-by-price .plp-top-cat-pg-shp-by-ctgy-itm {
+    margin-bottom: 3%;
+  }
+
+  .by-age-mobile {
+    display: none;
+  }
+
+  .by-age-desktop {
+    display: block;
+    text-align: center;
+  }
+
+}
+
+/*==================
+ min width 601px
+===================*/
+@media screen and (min-width: 601px) {
+
+}
+
+/*==================
+ min width 768px
+===================*/
+@media screen and (min-width: 768px) {
+
+}
+
+/*==================
+ min width 769px
+===================*/
+@media screen and (min-width:769px) {
+
+  .plp-top-cat-pg-shop-pg-title {
+    display: block;
+  }
+
+  .toy-pb-shop-by-age-btn p {
+    font-size: 14px;
+  }
+
+  .plp-top-cat-pg-shp-by-ctgy-itm .toy-pb-shop-by-age-btn {
+    height: 125px;
+  }
+
+}
+
+/*==================
+ min width 796px
+===================*/
+@media screen and (min-width: 796px) {
+
+  .plp-top-cat-pg-shp-by-ctgy-itm {
+    width: 15%;
+  }
+
+}
+
+/*==================
+ min width 976px
+===================*/
+@media screen and (min-width: 976px) {
+  .plp-top-cat-pg-shp-by-ctgy-itm .toy-pb-shop-by-age-btn {
+    height: 150px;
+  }
+}
+
+/*==================
+ min width 992px
+===================*/
+@media screen and (min-width: 992px) {
+
+}
+
+/*==================
+ min width 995px
+===================*/
+@media screen and (min-width: 995px) {
+
+}
+
+/*==================
+ min width 1024px
+===================*/
+@media screen and (min-width:1024px){
+
+}
+
+/*==================
+ min width 1800px
+===================*/
+@media screen and (min-width: 1800px) {
+
+}
