@@ -45,6 +45,38 @@
   text-align: center;
 }
 
+/* =========================================== */
+/* *********** START | FLAG COLORS *********** */
+/* =========================================== */
+.magenta {
+  background-color: #ba1e47
+}
+
+.tangerine {
+  background-color: #f6882f;
+}
+
+.lemon {
+  background-color: #ffc233;
+}
+
+.lime {
+  background-color: #92c844;
+}
+
+.cyan {
+  background-color: #00aeef;
+}
+
+.blueberry {
+  background-color: #2e3192;
+}
+
+.grape {
+  background-color: #181148;
+}
+
+
 /* ============================================ */
 /* ******** START | REFERENCE SECTION ********* */
 /* ============================================ */
@@ -134,7 +166,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #000;
   margin-bottom: 10px;
 }
 
@@ -162,6 +193,17 @@
   position: relative;
 }
 
+.reference-guide-flag-two-line {
+  padding-top: 11px;
+  padding-bottom: 10px;
+}
+
+.reference-guide-flag-three-line {
+  padding-top: 11px;
+  padding-bottom: 10px;
+  height: 81px;
+}
+
 .reference-guide-flag:after {
   content: "";
   position: absolute;
@@ -177,7 +219,12 @@
 .reference-guide-flag-title {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+.reference-guide-flag-title-long {
+  flex-direction: column;
 }
 
 .reference-guide-flag-title p {
@@ -191,19 +238,80 @@
   text-align: center;
 }
 
+.small-circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reference-guide-topper {
+  width: 42vw;
+  min-width: 131px;
+  max-width: 320px;
+  height: 56px;
+  box-sizing: content-box;
+  padding-top: 21px;
+  position: relative;
+}
+
+.reference-guide-topper-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.reference-guide-topper-title p {
+  font-family: 'Fredericka the Great', cursive;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  font-weight: bold;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  text-align: center;
+}
+
+.magenta-fill {
+  color: #ba1e47;
+}
+
+.tangerine-fill {
+  color: #f6882f;
+}
+
+.lemon-fill {
+  color: #ffc233;
+}
+
+.lime-fill {
+  color: #92c844;
+}
+
+.cyan-fill {
+  color: #00aeef;
+}
+
+.blueberry-fill {
+  color: #2e3192;
+}
+
+.grape-fill {
+  color: #181148;
+}
+
+.reference-guide-chapter-title .fa-lg {
+    font-size: 1.43em;
+    line-height: .75em;
+    vertical-align: -15%;
+}
+
 .variable-copy {
   width: 40%;
   margin-left: 5%;
-}
-
-.reference-guide-flag-title-long {
-  flex-direction: column;
-
-}
-
-.reference-guide-flag-two-line {
-  padding-top: 11px;
-  padding-bottom: 10px;
 }
 
 .variable-copy-scnd-line {
@@ -526,6 +634,11 @@
   }
 
   .reference-guide-flag-two-line {
+      padding-top: 21px;
+      padding-bottom: 0px;
+  }
+
+  .reference-guide-flag-three-line {
       padding-top: 21px;
       padding-bottom: 0px;
   }
