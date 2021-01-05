@@ -1199,6 +1199,7 @@ PORTFOLIO INDEX PAGES | iPhone5 | NO min width
 
 .porfolio-thumb {
   display: flex;
+  position: relative;
   border: 2px solid #000;
   margin: 5px;
   width: 27%;
@@ -1283,6 +1284,12 @@ PORTFOLIO INDIVIDUAL PAGES | iPhone5 | NO min width
 .portfolio-img-outlined img {
   margin: 0 3.5% 0 3.5%;
   width: 92%;
+}
+
+.ind-portfolio-page-content .portfolio-description{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .page-thru-buttons {
@@ -4270,6 +4277,18 @@ END MOBILE FIRST | iPhone5 | NO min width
      #individual-portfolio-page p {
        font-size: 23px;
      }
+
+
+
+
+
+
+
+
+
+
+
+
 
      /*==================================================
      CONTACT PAGE | DESKTOP | min width 940px

@@ -72,21 +72,95 @@
         <section id="portfolio-illustration">
           <div class="full-width">
 
+            <style>
+              .porfolio-thumb-hover-details {
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0%;
+              }
+
+              .porfolio-thumb-hover-details p {
+                /*font-family: 'EB Garamond', serif;*/
+                font-family: 'Montserrat', sans-serif;
+                color: #ffffff;
+                text-align: center;
+                text-transform: lowercase;
+                font-size: .9em;
+                /*font-weight: 100;*/
+                font-weight: 200;
+                margin-block-start: .4375em;
+                margin-block-end: .4375em;
+              }
+
+              .porfolio-thumb-hover-on {
+                display: none;
+              }
+
+              .porfolio-thumb-hover-on {
+                display: none;
+                position: absolute;
+                width: 100%;
+                top: 35%;
+              }
+
+              .portfolio-thumb-hover-background {
+                position: relative;
+              }
+
+              .porfolio-thumb:hover {
+                background-color: #000000;
+              }
+
+              .porfolio-thumb:hover img {
+                opacity: .3;
+              }
+
+
+              .porfolio-thumb:hover .porfolio-thumb-hover-on {
+                display: block;
+              }
+
+
+            </style>
+
             <div class="porfolio-thumb porfolio-thumb-title">
-              <a href="web-design/web-design-portfolio-dev-notes.html" title="links to portfolio page with description and link to a website dev project">
+
+              <a href="web-design/web-design-portfolio-dev-notes.html" title="links to my web dev notes and references">
                 <img src="img-web-design/web-design-portfolio-web-dev-notes.png" alt="web dev notes image">
+                <div class="porfolio-thumb-hover-details">
+                  <div class="porfolio-thumb-hover-on">
+                    <div class="porfolio-thumb-hover-on-copy">
+                      <p>web dev<br>references &amp; notes</p>
+                    </div>
+                  </div>
+                </div>
               </a>
             </div>
 
             <div class="porfolio-thumb porfolio-thumb-title">
-              <a href="web-design/web-design-portfolio-partical-slider-in-layout.html" title="links to portfolio page with description and link to a website dev project">
+              <a href="web-design/web-design-portfolio-partical-slider-in-layout.html" title="links to the partical slider portfolio page">
                 <img src="img-web-design/web-design-portfolio-paritcal-slider.png" alt="partical slider image">
+                <div class="porfolio-thumb-hover-details">
+                  <div class="porfolio-thumb-hover-on">
+                    <div class="porfolio-thumb-hover-on-copy">
+                      <p>partical slider<br>interactive logo</p>
+                    </div>
+                  </div>
+                </div>
               </a>
             </div>
 
             <div class="porfolio-thumb porfolio-thumb-title">
-              <a href="web-design/web-design-portfolio-two-up-slide-show.html" title="links to portfolio page with description and link to a website dev project">
+              <a href="web-design/web-design-portfolio-two-up-slide-show.html" title="links to the two-up slideshow portfolio page">
                 <img src="img-web-design/web-design-portfolio-two-up-slideshow.png" alt="two up slideshow image">
+                <div class="porfolio-thumb-hover-details">
+                  <div class="porfolio-thumb-hover-on">
+                    <div class="porfolio-thumb-hover-on-copy">
+                      <p>two-up<br>slideshow</p>
+                    </div>
+                  </div>
+                </div>
               </a>
             </div>
 
@@ -94,59 +168,128 @@
                 <a href="web-design/web-design-portfolio-unplugged.html" title="links to portfolio page with description and link to a website dev project">
                   <img src="img-web-design/web-design-unplugged.png" alt="Unplugged site image">
                 </a>
+                <div class="porfolio-thumb-hover-details">
+                  <div class="porfolio-thumb-hover-on">
+                    <div class="porfolio-thumb-hover-on-copy">
+                      <p>bootcamp project:<br>multi-page<br>responsive site</p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-holstee-manifesto.html" title="links to portfolio page with description and link to laying out text in a non traditional layout">
                   <img src="img-web-design/web-design-holstee.jpg" alt="Holstee Manifesto layout image">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>structure &amp; text<br>planning</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
-                <a href="web-design/web-design-portfolio-jubilee-austen.html" title="links to portfolio page with description and link to a one page website project">
+                <a href="web-design/web-design-portfolio-jubilee-austen.html" title="links to a one page website portfolio page">
                   <img src="img-web-design/web-design-jubilee-austen.png" alt="Jubilee Austen site image">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>a one page<br>responsive website</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-rogue-pickings.html" title="links to portfolio page with description and link to a website project">
                   <img src="img-web-design/web-design-rogue-pickings.jpg" alt="Rogue Pickings site image">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>build a page from<br>a Photoshop comp.</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
-                <a href="web-design/web-design-portfolio-magic-8-ball.html" title="links to portfolio page with description and link to the magic 8 ball javascript project">
+                <a href="web-design/web-design-portfolio-magic-8-ball.html" title="links to the magic 8 ball javascript project portfolio page">
                   <img src="img-web-design/web-design-magic-8-ball.png" alt="Magic 8 Ball Skillcrush javascript project image">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>magic 8 ball<br>javascript project</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-lolcat-clock.html" title="links to portfolio page with description and link to lolcat clock javascript project">
-                  <img src="img-web-design/web-design-lolcat-clock.png" alt="LOL-cat clock Skillcrush javascript project image">
+                  <img src="img-web-design/web-design-lolcat-clock.png" alt="LOL-cat clock Skillcrush javascript project image"><div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>bootcamp project:<br>lolcat clock<br>javascript project</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-buttons-opt2.html" title="links to portfolio page with custom developed buttons">
                   <img src="img-web-design/web-design-portfolio-buttons-opt2.png" alt="version 1 of custom developed buttons image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive buttons<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-buttons-opt3.html" title="links to portfolio page with a second presentation of custom developed buttons">
                   <img src="img-web-design/web-design-buttons-opt3.png" alt="version 2 of custom developed buttons image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive buttons<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-buttons.html" title="links to portfolio page with a third presentation of custom developed buttons">
                   <img src="img-web-design/web-design-portfolio-buttons.png" alt="version 3 of custom developed buttons image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive buttons<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-carousel.html" title="links to portfolio page with utilizing javascirpt and bootstrap to create a customized carousel">
                   <img src="img-web-design/web-design-portfolio-carousel.png" alt="carousel image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>carousel with<br>a modal &amp;<br>play/pause functionality</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
@@ -159,36 +302,78 @@
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-flexbox-template-1.html" title="links to portfolio page displaying flex-box dev solution">
                   <img src="img-web-design/web-design-portfolio-flexbox-template-1.png" alt="version 1 of flexbox image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>'theme' layout<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-countdown-timers.html" title="links to portfolio page leveraging javascript for the countdown timer and flexbox for the layout">
                   <img src="img-web-design/web-design-countdown-timers.png" alt="countdown timer image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>javascript:<br>countdown clock in<br>a responsive layout</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-code-generator.html" title="links to portfolio page leveraging javascript to generate blocks of code">
                   <img src="img-web-design/web-design-portfolio-code-generator.png" alt="code generator image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>javascript:<br>code generator<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-line-break-layout.html" title="links to portfolio page with a layout that leveraged 'rules'/divider lines">
                   <img src="img-web-design/web-design-web-design-portfolio-line-break-layout.png" alt="unique responsive line break image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive 'rules'<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-cta-overlay-hero.html" title="links to portfolio page with page layout with a cta overlay of the hero image">
                   <img src="img-web-design/web-design-portfolio-cta-overlay-hero.png" alt="call to action button over image, image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>modal &amp; cta overlay<br>for an ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-marketing-templates.html" title="links to portfolio page with page layout with a cta overlay of the hero image">
                   <img src="img-web-design/web-design-portfolio-flexbox-template-1-bottom-cta.png" alt="version 2 of flexbox image thumb">
+                  <div class="porfolio-thumb-hover-details">
+                    <div class="porfolio-thumb-hover-on">
+                      <div class="porfolio-thumb-hover-on-copy">
+                        <p>flexbox:<br>responsive marketing <br>layoutsfor an<br>ecommerce site</p>
+                      </div>
+                    </div>
+                  </div>
                 </a>
               </div>
 
@@ -201,30 +386,65 @@
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-flex-column-to-row.html" title="links to portfolio page displaying a flex column to row layout">
                  <img src="img-web-design/web-design-flexbox-layout-5.png" alt="version 3 of flexbox image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>flexbox:<br>responsive column <br>layout for an<br>ecommerce site</p>
+                     </div>
+                   </div>
+                 </div>
                </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-flex-page-layout.html" title="links to portfolio page displaying a modal">
                  <img src="img-web-design/web-design-flex-layout-6.png" alt="version 4 of flexbox image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>flexbox:<br>responsive buttons<br>for an ecommerce site</p>
+                     </div>
+                   </div>
+                 </div>
                </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-lp-plus-slider-bar.html" title="links to portfolio page displaying a modal">
                  <img src="img-web-design/web-design-mobile.png" alt="mobile slider image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>flexbox:<br>intricate responsive <br>responsive layout<br>for an ecommerce site</p>
+                     </div>
+                   </div>
+                 </div>
                </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-lp-order-switch.html" title="links to portfolio page">
                  <img src="img-web-design/web-design-lp-layout-switch.png" alt="responsive layout switch from mobile to desktop image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>flexbox:<br>flex order for an <br>ecommerce site</p>
+                     </div>
+                   </div>
+                 </div>
                </a>
               </div>
 
               <div class="porfolio-thumb">
                 <a href="web-design/web-design-portfolio-mobile-slider-buttons.html" title="links to portfolio page displaying a modal">
                  <img src="img-web-design/web-portfolio-mobile-slider-buttons.png" alt="mobile slider buttons image thumb">
+                 <div class="porfolio-thumb-hover-details">
+                   <div class="porfolio-thumb-hover-on">
+                     <div class="porfolio-thumb-hover-on-copy">
+                       <p>responsive layout<br>with slider</p>
+                     </div>
+                   </div>
+                 </div>
                </a>
               </div>
 
